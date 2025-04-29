@@ -60,6 +60,13 @@ const Chart = ({currentPrice, prevClose, label} : ChartProps ) => {
               ticks: { color: '#FFF' },
             },
           },
+          plugins: {
+            legend: {
+              labels: {
+                color: '#FFF',
+              },
+            },
+          },
         }}
       />
     </div>

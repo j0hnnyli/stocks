@@ -8,7 +8,6 @@ import {
   Legend,
 } from 'chart.js';
 
-import React from 'react';
 import { Line } from 'react-chartjs-2';
 
 
@@ -58,6 +57,13 @@ const Chart = ({currentPrice, prevClose, label} : ChartProps ) => {
             },
             y: {
               ticks: { color: '#FFF' },
+            },
+          },
+          plugins: {
+            legend: {
+              labels: {
+                color: '#FFF',
+              },
             },
           },
         }}

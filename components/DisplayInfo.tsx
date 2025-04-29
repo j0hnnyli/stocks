@@ -1,4 +1,3 @@
-import React from 'react';
 import {useState, useEffect} from 'react'
 import { BASE_URL } from '../lib/baseurl';
 import Table from './Table'

@@ -74,4 +74,4 @@ const DisplayInfo = ({ symbol }: Props) => {
   );
 };
 
-export default DisplayInfo;
+export default DisplayInfo
